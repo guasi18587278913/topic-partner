@@ -1,0 +1,35 @@
+{
+  "snapshot_date": "2026-10-24",
+  "corpus_directory_pages": 3297,
+  "registered_candidates": 1843,
+  "retrieved_pages": 891,
+  "registered_types": {
+    "case": 435,
+    "source-collection": 123,
+    "concept": 6,
+    "formula": 98,
+    "method": 292,
+    "rule": 11,
+    "source-document": 870,
+    "workflow": 8
+  },
+  "dispositions": {
+    "case_reference": 435,
+    "linked_reference": 941,
+    "primary_reference": 77,
+    "formula_reference": 98,
+    "retained": 141,
+    "context": 81,
+    "excluded": 70
+  },
+  "method_rules_reviewed": 292,
+  "local_unabridged_snapshots": 320,
+  "case_entries": 435,
+  "unknown_explicit_refs": [],
+  "unknown_source_edges": [],
+  "notes": [
+    "目录覆盖不等于全文精读；retrieved_body只表示MCP正文成功取回。",
+    "方法操作与适用条件逐页检查；来源原文按实际使用读取，未把全部关联原文当成已验证规则。",
+    "同源方法/公式/案例不重复计数；原文快照未重写，优先读取Wiki当前页。"
+  ]
+}

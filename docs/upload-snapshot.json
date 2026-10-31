@@ -1,0 +1,104 @@
+{
+  "skill": "topic-partner",
+  "snapshot_date": "2026-10-31T12:38:45.832280+00:00",
+  "source_kind": "installed local skill",
+  "included_source_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "5594e8432d4ac2f6588a56e65e62092373235074f28669d53b375e14e2d866fd",
+      "bytes": 8974
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "184f4278cbd12e05eef63e64571631ce6a0190e4faded29f059d83f73b1b753e",
+      "bytes": 283
+    },
+    {
+      "path": "references/angles.md",
+      "sha256": "433425bb7f7864d49f31f6e3c4d314f276fc6608361133006707841b4c4ab570",
+      "bytes": 3973
+    },
+    {
+      "path": "references/cases.md",
+      "sha256": "7c29e534ec2a9a1c39a118268cd162e9ead72ef305ba49ec136fb94ab4ab627f",
+      "bytes": 2881
+    },
+    {
+      "path": "references/connectors.md",
+      "sha256": "65071b2e06177dcc8298010d425aaec6ed31be1b5457c0356a9177545481225f",
+      "bytes": 2717
+    },
+    {
+      "path": "references/coverage.json",
+      "sha256": "b4eec21b93fe1efbfa9842b6ef39cede60e1b3394b3dc3af8a6f56fc449a5d24",
+      "bytes": 1020
+    },
+    {
+      "path": "references/coverage.md",
+      "sha256": "38febc9371f5e18c5cced7a57749051cfe097d778ae2f57048a078479864a22e",
+      "bytes": 2398
+    },
+    {
+      "path": "references/expressive.md",
+      "sha256": "eb5c8ff8759498f039797e26b090290f2c9c08d3a6ab485822363b25dd8e7b24",
+      "bytes": 3383
+    },
+    {
+      "path": "references/find.md",
+      "sha256": "ae6bd0f11f12aaa3078d69c38387234b54faf328b4188f81f5ace643b537d111",
+      "bytes": 4383
+    },
+    {
+      "path": "references/guide.md",
+      "sha256": "b43d451d821fd841b7a41ccd41563b0154fe10a9410b3153480384e8d0d537d7",
+      "bytes": 4802
+    },
+    {
+      "path": "references/judge.md",
+      "sha256": "4f375e41b3ecc9809216a1b7e399119376dcef020a241ad4a5e5db17e707dc5c",
+      "bytes": 4172
+    },
+    {
+      "path": "references/method-originals.jsonl",
+      "sha256": "b8aa60a9626c1c5ee5082f86557d83a02c3bc873d11908a5a424c0b9b7e242cf",
+      "bytes": 565912
+    },
+    {
+      "path": "references/reframe.md",
+      "sha256": "e3b439de4adc608382a9446362b80cf97bc542fad950e1c1f0d3d441bd6327e5",
+      "bytes": 3765
+    },
+    {
+      "path": "references/scenes.md",
+      "sha256": "b19ce7293bf1a98807bf99c16b50c0f483176014f270ff5666b4525613192e6c",
+      "bytes": 5011
+    },
+    {
+      "path": "references/series-hotspots.md",
+      "sha256": "7da61e2a9341689f10f1a313542decb4bddf8c5d0217d7265bd35987805206a9",
+      "bytes": 3349
+    },
+    {
+      "path": "references/source-index.jsonl",
+      "sha256": "427c61d57c4d63b0a5121e47bd9dbbea9c2db51afa05ef9a5ff56bd5edab36b5",
+      "bytes": 2847276
+    },
+    {
+      "path": "references/structures.md",
+      "sha256": "88b127733d246de020d6ab1fb2a4e606dac0a66ced10d027f299ee904b09d261",
+      "bytes": 5914
+    },
+    {
+      "path": "scripts/check_integrity.py",
+      "sha256": "807deb76c05867b7063adf3d10a5c67ae6bab1feea50ba00d06f42b7ca48b467",
+      "bytes": 4230
+    },
+    {
+      "path": "scripts/lookup.py",
+      "sha256": "91a92848bdb37e93bc7319b9cbb0bade05126bcbe441787cf218d69d9922c455",
+      "bytes": 5636
+    }
+  ],
+  "excluded_source_files": [],
+  "verification_scope": "Byte-for-byte copy of included source files; no claim of live provider or writing quality validation."
+}
