@@ -1,0 +1,132 @@
+{
+  "skill": "topic-partner",
+  "date": "2026-10-31",
+  "baseline_commit": "28a08e4a4e0b8408a8b4f2c07a496a2a1124b469",
+  "mode": "bundled-local-default-optional-wiki",
+  "validation": {
+    "format_exit": 0,
+    "offline_commands": [
+      {
+        "command": "python3 -B scripts/check_integrity.py",
+        "exit_code": 0
+      },
+      {
+        "command": "python3 -B scripts/lookup.py --query 人物关系 --limit 3",
+        "exit_code": 0
+      }
+    ],
+    "unit_tests_passed": 3,
+    "unit_tests_failed": 0,
+    "independent_review": "passed",
+    "synthetic_trial": "completed",
+    "trial_summary": "交付三个选题角度，区分现有材料可写与需要补料的方向；未连接 Wiki。来源索引里没有全文的条目没有被冒充已读。",
+    "external_services_executed": false
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "b4260ef4e7955a09c6864754fa9b29f37d91f8fab551580224062574806effc5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "eee791ed6334e2adc0a62e109ae90cb2ea9f73a8136a0d0f080bd2210d126c97"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "e5ebc83e6125bcea59ef0c66ea14cb4d9a59c3c42b122834a0a7c227829af4d2"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "0cabb79fa3e24677f9947a76dbd68b09d61d402d4e0e44e59a36f4ddc0e70a18"
+    },
+    {
+      "path": "docs/portability-validation.md",
+      "sha256": "0f97c1995064c037e2ac6dd3243d4c3509eb4c144b4cbbe98add846af2b331ca"
+    },
+    {
+      "path": "docs/upload-snapshot.json",
+      "sha256": "e53997f24378b275fdd4b242724c3b91f8f18f845bef6bd3add1f5535ce87d5e"
+    },
+    {
+      "path": "examples/first-run-result.md",
+      "sha256": "acbfccb207f40545fe54218b634dc9b82d2edbc250e52bbad3ab8b319b02fbac"
+    },
+    {
+      "path": "examples/first-run.md",
+      "sha256": "bfa4cadb95c57444cf10c3516a0bb41ce86c7a356df35ef4145d2f32f821d3eb"
+    },
+    {
+      "path": "references/angles.md",
+      "sha256": "433425bb7f7864d49f31f6e3c4d314f276fc6608361133006707841b4c4ab570"
+    },
+    {
+      "path": "references/cases.md",
+      "sha256": "14e4df00e65471bed03d7edd7e272166b3faddc8e80ba388c07aa3630404c130"
+    },
+    {
+      "path": "references/connectors.md",
+      "sha256": "65071b2e06177dcc8298010d425aaec6ed31be1b5457c0356a9177545481225f"
+    },
+    {
+      "path": "references/coverage.json",
+      "sha256": "b4eec21b93fe1efbfa9842b6ef39cede60e1b3394b3dc3af8a6f56fc449a5d24"
+    },
+    {
+      "path": "references/coverage.md",
+      "sha256": "38febc9371f5e18c5cced7a57749051cfe097d778ae2f57048a078479864a22e"
+    },
+    {
+      "path": "references/expressive.md",
+      "sha256": "eb5c8ff8759498f039797e26b090290f2c9c08d3a6ab485822363b25dd8e7b24"
+    },
+    {
+      "path": "references/find.md",
+      "sha256": "ae6bd0f11f12aaa3078d69c38387234b54faf328b4188f81f5ace643b537d111"
+    },
+    {
+      "path": "references/guide.md",
+      "sha256": "78fc1a3449a6c073922a2686dec9a14309d503c4ac5337d17904382dc05d0268"
+    },
+    {
+      "path": "references/judge.md",
+      "sha256": "4f375e41b3ecc9809216a1b7e399119376dcef020a241ad4a5e5db17e707dc5c"
+    },
+    {
+      "path": "references/method-originals.jsonl",
+      "sha256": "b8aa60a9626c1c5ee5082f86557d83a02c3bc873d11908a5a424c0b9b7e242cf"
+    },
+    {
+      "path": "references/reframe.md",
+      "sha256": "e3b439de4adc608382a9446362b80cf97bc542fad950e1c1f0d3d441bd6327e5"
+    },
+    {
+      "path": "references/scenes.md",
+      "sha256": "b19ce7293bf1a98807bf99c16b50c0f483176014f270ff5666b4525613192e6c"
+    },
+    {
+      "path": "references/series-hotspots.md",
+      "sha256": "7da61e2a9341689f10f1a313542decb4bddf8c5d0217d7265bd35987805206a9"
+    },
+    {
+      "path": "references/source-index.jsonl",
+      "sha256": "427c61d57c4d63b0a5121e47bd9dbbea9c2db51afa05ef9a5ff56bd5edab36b5"
+    },
+    {
+      "path": "references/structures.md",
+      "sha256": "f30322cf1ad9d579e2d7cc5e5092d49e635f33cbf888f32ea2092bb6a394925f"
+    },
+    {
+      "path": "scripts/check_integrity.py",
+      "sha256": "807deb76c05867b7063adf3d10a5c67ae6bab1feea50ba00d06f42b7ca48b467"
+    },
+    {
+      "path": "scripts/lookup.py",
+      "sha256": "db4f44856a1e8d65c65d6cfcc98343306ede79b17606adbd78985dbe5f8ad9db"
+    },
+    {
+      "path": "tests/test_lookup_portable.py",
+      "sha256": "e5af3e4c208550d863a44d328d84c3ac0e71b85941c979ad1f54773e89e367f9"
+    }
+  ],
+  "manifest_scope": "All distributed files except this manifest; Git commit identifies the complete version."
+}
